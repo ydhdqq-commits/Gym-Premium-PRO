@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FORGE GYM | Córdoba - Entrená Diferente</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+.anton{font-family:'Anton',sans-serif}
+*{font-family:'Inter',sans-serif}
+.hero-zoom{animation:zoom 20s infinite alternate}
+@keyframes zoom{from{transform:scale(1)}to{transform:scale(1.15)}}
+</style>
+</head>
+<body class="bg-black text-white overflow-x-hidden">
+
+<!-- NAV -->
+<nav class="fixed w-full z-50 flex justify-between items-center px-6 md:px-10 py-4 bg-black/80 backdrop-blur border-b border-white/10">
+<span class="anton text-2xl tracking-widest">FORGE<span class="text-lime-400">GYM</span></span>
+<div class="flex gap-3">
+<span class="hidden md:block text-xs border border-white/20 px-4 py-2 rounded-full">NUEVA CÓRDOBA • 24HS</span>
+<a href="https://wa.me/543511234567" class="bg-lime-400 text-black anton tracking-widest px-6 py-2 rounded-full text-sm">UNITE HOY</a>
+</div>
+</nav>
+
+<!-- HERO VIDEO FONDO -->
+<header class="relative h-screen flex items-center overflow-hidden">
+<div class="absolute inset-0">
+<video autoplay muted loop playsinline class="w-full h-full object-cover hero-zoom">
+<source src="videos/fondo.mp4" type="video/mp4">
+</video>
+<div class="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-black/30"></div>
+<div class="absolute inset-0 bg-lime-400/10 mix-blend-overlay"></div>
+</div>
+
+<div class="relative z-10 px-6 md:px-20 max-w-7xl mx-auto w-full grid md:grid-cols-[1.2fr_0.8fr] items-end gap-10 pt-20">
+<div>
+<p class="text-lime-400 text
