@@ -3,37 +3,38 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>FORGE GYM | Córdoba - Entrená Diferente</title>
+<title>FORGE GYM | Córdoba</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
-<style>
-.anton{font-family:'Anton',sans-serif}
-*{font-family:'Inter',sans-serif}
-.hero-zoom{animation:zoom 20s infinite alternate}
-@keyframes zoom{from{transform:scale(1)}to{transform:scale(1.15)}}
-</style>
+<style>.anton{font-family:'Anton',sans-serif}*{font-family:'Inter',sans-serif}.hero-zoom{animation:zoom 20s infinite alternate}@keyframes zoom{from{transform:scale(1)}to{transform:scale(1.15)}}</style>
 </head>
-<body class="bg-black text-white overflow-x-hidden">
-
-<!-- NAV -->
+<body class="bg-black text-white">
 <nav class="fixed w-full z-50 flex justify-between items-center px-6 md:px-10 py-4 bg-black/80 backdrop-blur border-b border-white/10">
 <span class="anton text-2xl tracking-widest">FORGE<span class="text-lime-400">GYM</span></span>
-<div class="flex gap-3">
-<span class="hidden md:block text-xs border border-white/20 px-4 py-2 rounded-full">NUEVA CÓRDOBA • 24HS</span>
 <a href="https://wa.me/543511234567" class="bg-lime-400 text-black anton tracking-widest px-6 py-2 rounded-full text-sm">UNITE HOY</a>
-</div>
 </nav>
-
-<!-- HERO VIDEO FONDO -->
 <header class="relative h-screen flex items-center overflow-hidden">
 <div class="absolute inset-0">
 <video autoplay muted loop playsinline class="w-full h-full object-cover hero-zoom">
-<source src="videos/fondo.mp4" type="video/mp4">
+<source src="https://videos.pexels.com/video-files/8844433/8844433-uhd_1440_1440_25fps.mp4" type="video/mp4">
 </video>
-<div class="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-black/30"></div>
-<div class="absolute inset-0 bg-lime-400/10 mix-blend-overlay"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-black/20"></div>
 </div>
-
-<div class="relative z-10 px-6 md:px-20 max-w-7xl mx-auto w-full grid md:grid-cols-[1.2fr_0.8fr] items-end gap-10 pt-20">
-<div>
-<p class="text-lime-400 text
+<div class="relative z-10 px-6 md:px-20 max-w-7xl mx-auto w-full pt-20">
+<p class="text-lime-400 text-xs tracking-[0.4em] font-bold">NUEVA CÓRDOBA • 06:00 - 23:00 • 24HS</p>
+<h1 class="anton text-7xl md:text-[110px] leading-[0.85] mt-4">NO ES<br>UN GYM.<br><span class="text-lime-400">ES FORJA.</span></h1>
+<p class="mt-6 text-zinc-300 max-w-md text-sm">Box de 600m², CrossFit, Hyrox y musculación. Sin vueltas. Resultados reales.</p>
+<div class="mt-8 flex gap-4">
+<a href="https://wa.me/543511234567" class="bg-white text-black anton px-8 py-4 text-sm tracking-widest">CLASE DE PRUEBA GRATIS</a>
+<span class="border border-white/20 px-6 py-4 text-xs flex items-center">⭐ 4.9/5 (412 reseñas)</span>
+</div>
+</div>
+</header>
+<section class="py-10 px-6 max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 -mt-16 relative z-20">
+<div class="bg-zinc-900 border border-white/10 rounded-[1.5rem] overflow-hidden"><video autoplay muted loop playsinline class="h-48 w-full object-cover"><source src="https://videos.pexels.com/video-files/5310859/5310859-uhd_1440_1440_25fps.mp4"></video><div class="p-4"><b class="anton text-lime-400">CROSSFIT</b><p class="text-xs text-zinc-400">WODs todos los días</p></div></div>
+<div class="bg-zinc-900 border border-white/10 rounded-[1.5rem] overflow-hidden"><video autoplay muted loop playsinline class="h-48 w-full object-cover"><source src="https://videos.pexels.com/video-files/4752077/4752077-uhd_1440_1440_25fps.mp4"></video><div class="p-4"><b class="anton text-lime-400">HYROX</b><p class="text-xs text-zinc-400">Preparación oficial</p></div></div>
+<div class="bg-zinc-900 border border-white/10 rounded-[1.5rem] overflow-hidden"><video autoplay muted loop playsinline class="h-48 w-full object-cover"><source src="https://videos.pexels.com/video-files/3202086/3202086-uhd_1440_1440_25fps.mp4"></video><div class="p-4"><b class="anton text-lime-400">MUSCULACIÓN</b><p class="text-xs text-zinc-400">600m² de fierros</p></div></div>
+<div class="bg-lime-400 text-black rounded-[1.5rem] p-6 flex flex-col justify-between"><b class="anton text-4xl leading-none">3<br>CLASES<br>X $0</b><p class="text-xs mt-4 font-bold">Sin matrícula este mes.</p><a href="#" class="mt-4 bg-black text-white text-center py-3 rounded-full text-xs anton tracking-widest">ACTIVAR</a></div>
+</section>
+</body>
+</html>
