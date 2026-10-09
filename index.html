@@ -2,70 +2,64 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>FORGE GYM | Córdoba - 24hs</title>
+<title>FORGE GYM | Córdoba</title>
 <script src="https://cdn.tailwindcss.com"></script>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
-<style>.anton{font-family:'Anton',sans-serif}.inter{font-family:'Inter',sans-serif}.zoom{animation:zoom 20s infinite alternate}@keyframes zoom{from{transform:scale(1)}to{transform:scale(1.2)}}</style>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<style>.anton{font-family:Anton,sans-serif}body{background:#000}</style>
 </head>
-<body class="bg-black text-white inter">
-<nav class="fixed top-0 w-full z-50 flex justify-between items-center px-6 md:px-10 py-5 bg-black/70 backdrop-blur border-b border-white/10">
-<div class="anton text-2xl tracking-widest">FORGE<span class="text-lime-400">GYM</span></div>
-<div class="hidden md:flex gap-6 text-[10px] tracking-[0.3em] text-zinc-400"><span>CROSSFIT</span><span>HYROX</span><span>MUSCULACIÓN</span><span>24HS</span></div>
-<a href="https://wa.me/543511234567" class="bg-lime-400 text-black anton text-sm px-6 py-2 rounded-full tracking-widest">UNITE HOY</a>
+<body class="text-white">
+<nav class="fixed top-0 w-full z-50 flex justify-between px-6 py-4 bg-black/80 border-b border-white/10">
+<div class="anton text-xl">FORGE<span class="text-lime-400">GYM</span></div>
+<a href="https://wa.me/543511234567" class="bg-lime-400 text-black anton text-xs px-5 py-2 rounded-full">UNITE HOY</a>
 </nav>
-
-<header class="relative h-[100vh] flex items-center overflow-hidden">
-<video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover zoom">
-<source src="https://videos.pexels.com/video-files/5310859/5310859-hd_1920_1080_25fps.mp4" type="video/mp4">
+<header class="relative h-[92vh] overflow-hidden">
+<video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover">
+<source src="./videos/fondo.mp4" type="video/mp4">
+<source src="./fondo.mp4" type="video/mp4">
 </video>
-<div class="absolute inset-0 bg-black/40"></div>
-<div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
-
-<div class="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12 pt-20">
-<p class="text-lime-400 font-bold text-[11px] tracking-[0.5em]">NUEVA CÓRDOBA • ABIERTO 06:00-23:00</p>
-<h1 class="anton text-6xl md:text-[110px] leading-[0.85] mt-5">NO ES<br>UN GYM.<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-lime-400 to-emerald-400">ES FORJA.</span></h1>
-<p class="mt-6 text-zinc-200 max-w-lg text-sm leading-relaxed">Box de 600m², racks Rogue, zona Hyrox oficial y coaches certificados. Acá no venís a sacarte fotos. Venís a forjarte.</p>
-<div class="mt-8 flex flex-wrap gap-4">
-<a href="https://wa.me/543511234567" class="bg-white text-black anton px-8 py-4 tracking-widest text-sm">CLASE DE PRUEBA GRATIS →</a>
-<div class="border border-white/20 backdrop-blur px-6 py-4 text-xs flex items-center gap-2"><span class="text-yellow-400">★★★★★</span> 4.9/5 (412 reseñas en Google)</div>
-</div>
+<div class="absolute inset-0 bg-black/60"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/40"></div>
+<div class="relative z-10 h-full flex flex-col justify-center max-w-7xl mx-auto px-6 pt-20">
+<p class="text-lime-400 font-black text-[10px] tracking-[0.5em]">NUEVA CÓRDOBA • 06:00-23:00</p>
+<h1 class="anton text-6xl md:text-[90px] leading-[0.85] mt-3">NO ES<br>UN GYM.<br><span class="text-lime-400">ES FORJA.</span></h1>
 </div>
 </header>
 
-<section class="max-w-7xl mx-auto px-6 md:px-10 -mt-20 relative z-20 grid grid-cols-1 md:grid-cols-4 gap-4 pb-20">
-<!-- 1 -->
-<div class="bg-zinc-900 border border-white/10 rounded-[2rem] overflow-hidden group">
-<div class="h-56 overflow-hidden relative">
-<video autoplay muted loop playsinline class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
-<source src="https://videos.pexels.com/video-files/8844433/8844433-uhd_1440_1440_25fps.mp4" type="video/mp4">
+<section class="max-w-7xl mx-auto px-4 -mt-12 relative z-20 grid grid-cols-1 md:grid-cols-4 gap-4 pb-20">
+<!-- ETIQUETA 1 CROSSFIT -->
+<div class="rounded-[2rem] overflow-hidden h-[400px] relative border border-white/10 bg-zinc-900">
+<video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover">
+<source src="./videos/etiqueta1.mp4" type="video/mp4">
+<source src="./etiqueta1.mp4" type="video/mp4">
 </video>
-<div class="absolute top-4 left-4 bg-lime-400 text-black text-[10px] font-black px-3 py-1 rounded-full">MÁS POPULAR</div>
+<div class="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent"></div>
+<div class="absolute top-3 left-3 bg-lime-400 text-black text-[9px] font-black px-3 py-1 rounded-full">MÁS POPULAR</div>
+<div class="absolute bottom-0 p-5 w-full"><h3 class="anton text-xl">CROSSFIT</h3><p class="text-[11px] text-zinc-300">WODs diarios • 6 coaches</p></div>
 </div>
-<div class="p-5"><h3 class="anton text-xl tracking-wide">CROSSFIT</h3><p class="text-xs text-zinc-400 mt-1">WODs diarios • 6 coaches</p><div class="mt-4 flex justify-between items-center text-[10px] text-zinc-500"><span>06:00-22:00</span><span class="text-lime-400 font-bold">VER HORARIOS →</span></div></div>
-</div>
-<!-- 2 -->
-<div class="bg-zinc-900 border border-white/10 rounded-[2rem] overflow-hidden group">
-<div class="h-56 overflow-hidden">
-<video autoplay muted loop playsinline class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
-<source src="https://videos.pexels.com/video-files/4752077/4752077-uhd_1440_1440_25fps.mp4" type="video/mp4">
+
+<!-- ETIQUETA 2 HYROX -->
+<div class="rounded-[2rem] overflow-hidden h-[400px] relative border border-white/10 bg-zinc-900">
+<video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover">
+<source src="./videos/etiqueta2.mp4" type="video/mp4">
+<source src="./etiqueta2.mp4" type="video/mp4">
 </video>
+<div class="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent"></div>
+<div class="absolute bottom-0 p-5 w-full"><h3 class="anton text-xl">HYROX OFICIAL</h3><p class="text-[11px] text-zinc-300">Único box oficial Córdoba</p></div>
 </div>
-<div class="p-5"><h3 class="anton text-xl tracking-wide">HYROX OFICIAL</h3><p class="text-xs text-zinc-400 mt-1">Único box oficial en Córdoba</p><div class="mt-4 flex justify-between items-center text-[10px] text-zinc-500"><span>Preparación PRO</span><span class="text-lime-400 font-bold">RESERVAR →</span></div></div>
-</div>
-<!-- 3 -->
-<div class="bg-zinc-900 border border-white/10 rounded-[2rem] overflow-hidden group">
-<div class="h-56 overflow-hidden">
-<video autoplay muted loop playsinline class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
-<source src="https://videos.pexels.com/video-files/3202086/3202086-uhd_1440_1440_25fps.mp4" type="video/mp4">
+
+<!-- ETIQUETA 3 MUSCULACION -->
+<div class="rounded-[2rem] overflow-hidden h-[400px] relative border border-white/10 bg-zinc-900">
+<video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover">
+<source src="./videos/etiqueta3.mp4" type="video/mp4">
+<source src="./etiqueta3.mp4" type="video/mp4">
 </video>
+<div class="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent"></div>
+<div class="absolute bottom-0 p-5 w-full"><h3 class="anton text-xl">MUSCULACIÓN</h3><p class="text-[11px] text-zinc-300">Hammer Strength • 600m²</p></div>
 </div>
-<div class="p-5"><h3 class="anton text-xl tracking-wide">MUSCULACIÓN</h3><p class="text-xs text-zinc-400 mt-1">600m² • Máquinas Hammer</p><div class="mt-4 flex justify-between items-center text-[10px] text-zinc-500"><span>Sin límite horario</span><span class="text-lime-400 font-bold">VER SALA →</span></div></div>
-</div>
-<!-- 4 OFERTA -->
-<div class="bg-lime-400 text-black rounded-[2rem] p-7 flex flex-col justify-between">
-<div><p class="text-[10px] font-black tracking-[0.4em]">PROMO OCTUBRE</p><h3 class="anton text-5xl leading-[0.9] mt-3">3<br>CLASES<br>X $0</h3><p class="text-xs font-bold mt-4 leading-tight">Probá 3 clases gratis. Sin matrícula. Sin compromiso. Si no te gusta, no pagás.</p></div>
-<a href="https://wa.me/543511234567" class="mt-6 bg-black text-white anton text-center py-4 rounded-full text-sm tracking-widest">ACTIVAR PROMO →</a>
-<p class="text-[9px] text-black/60 mt-3 text-center">Quedan 7 cupos esta semana</p>
+
+<div class="bg-lime-400 text-black rounded-[2rem] p-6 h-[400px] flex flex-col justify-between">
+<div><p class="text-[9px] font-black tracking-[0.4em]">PROMO OCTUBRE</p><h3 class="anton text-5xl leading-[0.85] mt-2">3<br>CLASES<br>X $0</h3><p class="text-xs font-bold mt-2">Probá sin compromiso</p></div>
+<a href="https://wa.me/543511234567" class="bg-black text-white anton text-center py-4 rounded-full text-sm">ACTIVAR PROMO →</a>
 </div>
 </section>
 </body>
